@@ -1,4 +1,4 @@
-name: zapfull-security-scan DemoBlaze
+name: zapfull-security-scan 
 on:
   push:
     branches: [ main ]
@@ -9,7 +9,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:     
-    - name: OWASP ZAP Full Scan DemoBlaze
+    - name: OWASP ZAP Full Scan 
       uses: zaproxy/action-full-scan@v0.2.0
       with:
-        target: "https://www.demoblaze.com/"
+        target: "https://www.visitcalifornia.com/"
