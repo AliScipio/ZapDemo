@@ -10,6 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:     
     - name: OWASP ZAP Full Scan 
-      uses: zaproxy/action-full-scan@v0.4.0
+      uses: zaproxy/action-full-scan@v0.2.0
       with:
-        target: "https://www.visitcalifornia.com/"
+        target: "https://www.visitcalifornia.com/places-to-visit/"
