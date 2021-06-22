@@ -10,6 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:     
     - name: OWASP baseline Scan SeasmeStreet
-      uses: zaproxy/action-full-scan@v0.2.0
+      uses: zaproxy/action-baseline@v0.4.0
       with:
         target: "https://www.sesamestreet.org/"
