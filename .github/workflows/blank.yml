@@ -1,4 +1,4 @@
-name: zapfull-security-scan 
+name: zapfull-baseline-scan SeasmeStreet
 on:
   push:
     branches: [ main ]
@@ -9,7 +9,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:     
-    - name: OWASP ZAP Full Scan 
+    - name: OWASP baseline Scan SeasmeStreet
       uses: zaproxy/action-full-scan@v0.2.0
       with:
         target: "https://www.sesamestreet.org/"
